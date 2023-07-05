@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* Css Login Page */
+#btn-masuk {
+  color: white !important;
+  background-color: #1daa7b;
+  width: 130px;
+}
+#btn-masuk:hover {
+  background-color: #40bd93;
+}
+.body-color {
+  background-color: #2a3845;
+}
+.card-login {
+  background-color: #04033c;
+}
+
+/* Css Dasboard */
+.navbar-atas {
+  background-color: #12325c;
+  border-radius: 0px 0px 100px 30px;
+  width: 1290px;
+  height: 100px;
+  padding: 10px;
+}
+.navbar-brand {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -130px;
+  margin-left: 10px;
+}
+.text-navbar h1 {
+  color: #f8f9fa;
+}
+.datetime-box {
+  background-color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.datetime-user-container {
+  display: flex;
+  align-items: center;
+}
+#dateTime {
+  color: #002c5f;
+  font-size: 18px;
+}
+
+#userInfo {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+}
+
+#userInfo i {
+  background-color: #ffffff;
+  border-radius: 50%;
+  padding: 5px;
+  margin-right: 5px;
+  color: #002c5f;
+}
+
+.user-info-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.user-info-container:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.logout-option {
+  position: absolute;
+  top: 150%;
+  right: 0;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  display: none;
+}
+
+.logout-option:hover {
+  background-color: #f2c94c;
+}
+
+.logout-option a {
+  display: block;
+  color: #002c5f;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.user-info-container:hover .logout-option {
+  display: block;
+}
+
+.sidenav {
+  height: 80%;
+  width: 200px;
+  position: fixed;
+  border-radius: 0px 40px 40px 0px;
+  z-index: 1;
+  left: 0;
+  background-color: #002c5f;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 15px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #f8f9fa;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #337ab7;
+  text-decoration: none;
+}
+.sidenav a.active {
+  font-weight: bold;
+  border-radius: 15px;
+  background-color: #9fa5bd;
+  color: #265b89;
+}
+.sidenav a i {
+  margin-right: 10px; /* Add some spacing between the icon and text */
+  margin-left: 10px;
+  vertical-align: middle;
+  width: 20px;
+}
+
+/* Css main */
+main {
+  margin-top: 90px;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-top: -250px;
+}
+
+.analytics-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin-top: 50px; /* Adjust the margin-top value as desired */
+}
+
+.analytics-row {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.analytics-item {
+  background-color: #f2f2f2;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.analytics-item:hover {
+  transform: scale(1.05);
+}
+
+.analytics-value {
+  font-size: 32px;
+  font-weight: bold;
+  color: #002c5f;
+}
+
+.analytics-label {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #555555;
+}
+
+.analytics-icon {
+  font-size: 32px;
+  color: #555555;
+}
+.title {
+  font-family: "Pacifico", cursive;
+  font-size: 32px;
+  font-weight: normal;
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
